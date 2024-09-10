@@ -2,6 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-color: #f4f4f4;
 }
 
 header {
@@ -9,34 +10,64 @@ header {
     justify-content: space-between;
     align-items: center;
     background-color: #333;
-    color: #fff;
-    padding: 10px 20px;
+    color: white;
+    padding: 15px 20px;
 }
 
 .logo img {
     height: 50px;
-    margin-right: 20px;
 }
 
 nav ul {
-    list-style-type: none;
+    list-style: none;
+    display: flex;
     margin: 0;
     padding: 0;
-    display: flex;
 }
 
 nav ul li {
-    margin: 0 10px;
+    margin: 0 15px;
 }
 
 nav ul li a {
-    color: #fff;
+    color: white;
     text-decoration: none;
     padding: 10px 15px;
-    display: block;
 }
 
 nav ul li a:hover {
     background-color: #555;
     border-radius: 5px;
+}
+
+section {
+    padding: 40px 20px;
+    background-color: white;
+    margin: 20px 0;
+}
+
+section#inicio {
+    background-color: #e0f7fa;
+}
+
+section#contacto form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#contacto input, section#contacto textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }

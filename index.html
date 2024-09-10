@@ -1,24 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto 2</title>
+    <title>Protocolo TCP/IP</title>
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
+
     <header>
         <div class="logo">
-            <img src="logo.png" alt="Logo">
+            <img src="IMG/logo.webp" alt="Logo TCP/IP">
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Inicio</a></li>
-                <li><a href="#services">Servicios</a></li>
-                <li><a href="#about">Sobre Nosotros</a></li>
-                <li><a href="#contact">Contacto</a></li>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#historia">Historia</a></li>
+                <li><a href="#capas">Capas del Protocolo</a></li>
+                <li><a href="#funcionamiento">Funcionamiento</a></li>
+                <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
+
+    <section id="inicio">
+        <h1>Protocolo TCP/IP</h1>
+        <p>El protocolo TCP/IP es el conjunto de reglas que rigen la forma en que los dispositivos se comunican en una red.</p>
+    </section>
+
+    <section id="historia">
+        <h2>Historia</h2>
+        <p>TCP/IP fue desarrollado en la década de 1970 por DARPA, y se convirtió en el estándar para las redes de computadoras.</p>
+    </section>
+
+    <section id="capas">
+        <h2>Capas del Protocolo TCP/IP</h2>
+        <ul>
+            <li><strong>Capa de Aplicación:</strong> Interactúa con el software (HTTP, FTP).</li>
+            <li><strong>Capa de Transporte:</strong> Gestiona la transferencia de datos (TCP, UDP).</li>
+            <li><strong>Capa de Internet:</strong> Se encarga de la dirección IP y el enrutamiento.</li>
+            <li><strong>Capa de Acceso a Red:</strong> Controla la transmisión física de datos.</li>
+        </ul>
+    </section>
+
+    <section id="funcionamiento">
+        <h2>Funcionamiento</h2>
+        <p>TCP/IP utiliza un modelo de cliente-servidor para enviar y recibir datos a través de la red.</p>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="post">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Proyecto TCP/IP</p>
+    </footer>
+
 </body>
 </html>
