@@ -7,7 +7,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #DAFDBA;
     display: flex;
     flex-direction: column;
 }
@@ -18,8 +18,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: white;
+    background-color: #60BF81;
+    color: black;
     padding: 15px 20px;
 }
 
@@ -93,8 +93,8 @@ nav ul li a:hover {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #333;
-    color: white;
+    background-color: #60BF81;
+    color: black;
     position: relative;
     bottom: 0;
     width: 100%;
